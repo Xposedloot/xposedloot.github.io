@@ -16,7 +16,7 @@ function Header() {
           <ul>
             <li><Link to="/" className="active">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li className="dropdown"><a href="/"><span>Gallery</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
+            <li className="dropdown"><a href="/"><span>Services</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
                 <li><a href="/">Web design</a></li>
                 <li><a href="/">SEO</a></li>
