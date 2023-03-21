@@ -15,7 +15,6 @@ function Header() {
         <nav id="navbar" className="navbar">
           <ul>
             <li><Link to="/" className="active">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
             <li className="dropdown"><a href="/"><span>Services</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
                 <li><a href="/">Web design</a></li>
@@ -24,6 +23,7 @@ function Header() {
               </ul>
             </li>
             <li><Link to="/services">Portfolio</Link></li>
+            <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
