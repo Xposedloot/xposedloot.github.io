@@ -15,14 +15,14 @@ function Header() {
         <nav id="navbar" className="navbar">
           <ul>
             <li><Link to="/" className="active">Home</Link></li>
-            <li className="dropdown"><a href="/"><span>Services</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
+            <li className="dropdown"><Link to="/services"><span>Services</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
               <ul>
                 <li><a href="/">Web design</a></li>
                 <li><a href="/">SEO</a></li>
                 <li><a href="/">Graphice</a></li>
               </ul>
             </li>
-            <li><Link to="/services">Portfolio</Link></li>
+            <li><Link to="/portfolio">Portfolio</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>

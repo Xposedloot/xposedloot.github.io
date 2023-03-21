@@ -3,6 +3,7 @@ import About from "./pages/about";
 import Home from "./pages/home";
 import Contact from "./pages/contact";
 import Services from "./pages/services";
+import Portfolio from "./pages/Portfolio";
 import React from "react";
 import Header from "./Components/header";
 import Footer from "./Components/footer";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/Services" element={<Services />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />
     </div>
