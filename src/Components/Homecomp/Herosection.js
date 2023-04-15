@@ -8,7 +8,7 @@ export default function Herosection() {
         <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
             <h2>I'm <span>Ravi Kumar</span> a Professional Web & Graphice designer from India.</h2>
-            <p>Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero. Qui voluptas amet.</p>
+            <p>testing Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero. Qui voluptas amet.</p>
             <Link to="/contact" className="btn-get-started">Available for hire</Link>
             </div>
         </div>
